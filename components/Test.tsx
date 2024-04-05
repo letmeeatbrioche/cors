@@ -6,7 +6,7 @@ type Props = {}
 const Test = (props: Props) => {
   const [data, setData] = useState('');
 
-  const res = fetch(`http://localhost:3001/api/`, {
+  const res = fetch(`http://localhost:3000/api/`, {
     method: "GET",
     cache: "no-store",
   })
