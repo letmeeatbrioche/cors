@@ -18,6 +18,9 @@ const Test = (props: Props) => {
     console.log('data:', data);
     setData(data.message);
   })
+  .catch(error => {
+    console.error('error:', error);
+  })
 
   return (
     <>
